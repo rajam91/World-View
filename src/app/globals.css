@@ -1,0 +1,115 @@
+.body {
+  font-family: 'Avenir', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7ab4e6;
+  color: #333;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  background-color: #f098a7;
+  color: #e8a6a6;
+  padding: 10px;
+}
+
+.parent-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.country-card {
+  flex-basis: 300px;
+  padding: 15px;
+  border: 4px solid #3e338f;
+  margin: 15px;
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out; 
+
+  &:hover {
+    transform: scale(1.05); 
+  }
+}
+
+.country-card span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-family: 'Avenir', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #63aceb;
+  color: #333;
+}
+
+
+.navbar {
+  background-color: #637aef;
+  color: #e8a6a6;
+  padding: 10px;
+}
+
+.parent-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.country-card {
+  flex-basis: 300px;
+  padding: 15px;
+  border: 4px solid #3e338f;
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out; 
+  &:hover {
+    transform: scale(1.05); 
+  }
+}
+
+.country-card span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.drapeau img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.drapeau {
+  text-align: center;
+}
+
+
+.parent-class input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.parent-class input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
